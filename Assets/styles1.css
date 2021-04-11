@@ -1,4 +1,4 @@
-* {background-color: rgb(135, 217, 238);}
+* {background-color: rgb(7, 121, 54);}
 
 
 .main-header{
@@ -6,9 +6,25 @@
     justify-content: space-between;
     padding: 30px;
     flex-wrap: wrap;
-      
-
+    border-bottom: 10px solid rgb(108, 241, 31);
+    
 }
+
+
+
+img{
+    width: 200px;
+    width: 200px;
+    float: left;
+    padding: 55px;
+    align-content: flex-start;  
+    
+}
+
+
+
+
+
 
 #name{
     font-family: sans-serif, serif, Arial, Helvetica;
@@ -36,33 +52,41 @@ nav li{
 
 .second-header{
     display: flex;
-    background-image: url();
-}
-
-.block-section{
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    border-left: var(--dark blue) solid 8px ;
+    padding: ;
+    background-image: url(./images/matrix.jpg);
     
 }
 
-
-
+.block{
+    display: flex;
+    flex: 1 2;
+    justify-content: space-around;
+    width: 60%;
+    flex-direction: row;
+    font-size: 26px;
+      
 }
+
+aside{
+  border-right: 8px solid  rgb(2, 29, 19) ;
+}
+
 
 .aside-look, .content{
     display: flex;
     height: auto;
     margin: 30px;
+    
+
 }
  
 .content{
     display: flex;
     width: 70%;
-    border-left: var(--dark blue) solid 8px;
+    padding: 60px;
     
 }
+
 
 
 
@@ -75,9 +99,3 @@ p{
     flex-wrap: wrap;
 }
 
-footer {
-    display: flex;
-    bottom: 0px;
-    width: 400px;
-    text-align: center;
-    }
