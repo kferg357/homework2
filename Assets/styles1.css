@@ -22,14 +22,12 @@ img{
 }
 
 
-
-
-
-
 #name{
     font-family: sans-serif, serif, Arial, Helvetica;
     
 }
+
+
 
 #header-nav{
     float: right;
@@ -52,10 +50,11 @@ nav li{
 
 .second-header{
     display: flex;
-    padding: ;
+    padding: 15;
     background-image: url(./images/matrix.jpg);
     
 }
+
 
 .block{
     display: flex;
@@ -67,12 +66,17 @@ nav li{
       
 }
 
-aside{
-  border-right: 8px solid  rgb(2, 29, 19) ;
+.article{
+    width: 300px;
+    height: 300px;
+}
+
+.div, .my-work{
+border-right: 8px solid  rgb(2, 29, 19) ;
 }
 
 
-.aside-look, .content{
+.div-look, .content{
     display: flex;
     height: auto;
     margin: 30px;
@@ -80,6 +84,7 @@ aside{
 
 }
  
+
 .content{
     display: flex;
     width: 70%;
@@ -88,10 +93,9 @@ aside{
 }
 
 
-
-
 p{
     font-size: 1.5em;
+    text-decoration-line: none;
 }
 
 .contact-me{
