@@ -51,7 +51,7 @@ nav li{
 .second-header{
     display: flex;
     padding: 15;
-    background-image: url(./images/matrix.jpg);
+    background-image: url(./images/coding\ picture.jpg)
     
 }
 
@@ -94,8 +94,9 @@ border-right: 8px solid  rgb(2, 29, 19) ;
 
 
 p{
-    font-size: 1.5em;
-    text-decoration-line: none;
+    font-size: 26px;
+
+    
 }
 
 .contact-me{
@@ -103,3 +104,7 @@ p{
     flex-wrap: wrap;
 }
 
+.block-content{
+    display: inline;
+    padding: 20px;
+}
